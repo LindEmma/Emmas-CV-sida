@@ -431,6 +431,24 @@ button.primary {
     border-left: 2px solid rgb(65, 55, 31);
     padding: 15px;
   }
+  #home {
+    margin: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #home h1 {
+    font-size: 2.5em;
+  }
+  #home h2 {
+    font-size: 1.5em;
+  }
+  #home h3 {
+    font-size: 1em;
+  }
+  #home {
+    margin: 40px;
+  }
 
   /* For printing */
 }
