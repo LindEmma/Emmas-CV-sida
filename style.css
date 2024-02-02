@@ -410,3 +410,41 @@ button.primary {
     border-bottom: 0;
   }
 }
+@media print {
+  body {
+    color: #000000;
+    background-color: #ffffff;
+    font-family: Georgia, Times, serif;
+  }
+  p {
+    font-family: Georgia, Times, serif;
+    font-size: 12pt;
+  }
+  .CV-content {
+    font-family: Georgia, Times, serif;
+  }
+  h1 {
+    font-family: Georgia, Times, serif;
+  }
+  h3 {
+    font-family: Georgia, Times, serif;
+  }
+  .about-me-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .about-me-content p {
+    font-size: 14pt;
+  }
+  a:link {
+    color: #0000cc;
+    text-decoration: underline;
+  }
+  footer {
+    display: none;
+  }
+  header {
+    display: none;
+  }
+}
