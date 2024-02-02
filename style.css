@@ -404,10 +404,11 @@ button.primary {
     flex-wrap: wrap;
     flex-direction: column-reverse;
     width: 100%;
-    margin: 0;
     padding: 0;
+    align-items: center;
   }
   .cv-aside {
+    min-width: 400px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -415,18 +416,23 @@ button.primary {
     margin-left: 0;
     margin-right: 0;
     border-bottom: 2px solid rgb(65, 55, 31);
+    border-left: 2px solid rgb(65, 55, 31);
   }
   .work-education {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
     width: 100%;
     margin-top: 40px;
     margin-left: 0;
     margin-right: 0;
+    padding-right: 0;
     border-bottom: 0;
+    border-left: 2px solid rgb(65, 55, 31);
+    padding: 15px;
   }
+
+  /* For printing */
 }
 @media print {
   body {
