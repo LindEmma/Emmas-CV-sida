@@ -73,8 +73,8 @@ h3 {
 footer {
   background-color: darkolivegreen;
   margin-top: auto;
-  margin-bottom: 0px;
-  padding: 0px;
+  margin-bottom: 0;
+  padding: 0;
   opacity: 0.7;
   width: 100%;
 }
@@ -359,15 +359,13 @@ button.primary {
   margin: 20px;
   width: 400px;
 }
-
-/* css when screen is max 700px wide */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   .about-me {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 75px;
-    background-color: #f4ebd6;
+    background-color: #fff6e2;
     padding: 30px;
     margin: 20px;
     border-radius: 10%;
@@ -381,6 +379,10 @@ button.primary {
     padding: 0px;
     border-radius: 10%;
   }
+}
+
+/* css when screen is max 700px wide */
+@media screen and (max-width: 700px) {
   .contact {
     display: flex;
     justify-content: center;
