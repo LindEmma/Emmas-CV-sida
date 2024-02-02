@@ -449,13 +449,8 @@ button.primary {
   #home {
     margin: 40px;
   }
-  .contact ul {
-    margin: 30px;
-    margin-left: 0;
-    margin-right: 50px;
-  }
-  .contact ul li {
-    margin: 15px;
+  .contact-container {
+    min-width: 400px;
   }
   /* For printing */
 }
